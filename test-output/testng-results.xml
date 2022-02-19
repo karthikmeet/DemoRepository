@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="10" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-05T06:22:14Z" name="Suite" finished-at="2022-02-05T06:22:24Z" duration-ms="9243">
+    <groups>
+    </groups>
+    <test started-at="2022-02-05T06:22:14Z" name="chromeTest" finished-at="2022-02-05T06:22:24Z" duration-ms="9131">
+      <class name="org.pageexecution.LoginPageExecution">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@488d1cd7]" started-at="2022-02-05T06:22:14Z" name="beforeTest" finished-at="2022-02-05T06:22:18Z" duration-ms="3204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@488d1cd7]" started-at="2022-02-05T06:22:18Z" name="beforeMethod" finished-at="2022-02-05T06:22:19Z" duration-ms="1067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:org.pageexecution.LoginPageExecution@488d1cd7]" started-at="2022-02-05T06:22:19Z" name="test1" finished-at="2022-02-05T06:22:20Z" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@488d1cd7]" started-at="2022-02-05T06:22:20Z" name="beforeMethod" finished-at="2022-02-05T06:22:20Z" duration-ms="601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:org.pageexecution.LoginPageExecution@488d1cd7]" started-at="2022-02-05T06:22:20Z" name="test2" finished-at="2022-02-05T06:22:21Z" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.pageexecution.LoginPageExecution -->
+      <class name="org.pageexecution.HomePageExecution">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.HomePageExecution@68dc098b]" started-at="2022-02-05T06:22:21Z" name="beforeMethod" finished-at="2022-02-05T06:22:21Z" duration-ms="573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:org.pageexecution.HomePageExecution@68dc098b]" started-at="2022-02-05T06:22:21Z" name="test1" finished-at="2022-02-05T06:22:22Z" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.HomePageExecution@68dc098b]" started-at="2022-02-05T06:22:22Z" name="beforeMethod" finished-at="2022-02-05T06:22:23Z" duration-ms="789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:org.pageexecution.HomePageExecution@68dc098b]" started-at="2022-02-05T06:22:23Z" name="test2" finished-at="2022-02-05T06:22:24Z" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.pageexecution.HomePageExecution -->
+    </test> <!-- chromeTest -->
+    <test started-at="2022-02-05T06:22:15Z" name="chromeTest2" finished-at="2022-02-05T06:22:24Z" duration-ms="9225">
+      <class name="org.pageexecution.LoginPageExecution">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@20ca951f]" started-at="2022-02-05T06:22:15Z" name="beforeTest" finished-at="2022-02-05T06:22:18Z" duration-ms="3358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@20ca951f]" started-at="2022-02-05T06:22:18Z" name="beforeMethod" finished-at="2022-02-05T06:22:19Z" duration-ms="1550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:org.pageexecution.LoginPageExecution@20ca951f]" started-at="2022-02-05T06:22:19Z" name="test1" finished-at="2022-02-05T06:22:20Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.LoginPageExecution@20ca951f]" started-at="2022-02-05T06:22:20Z" name="beforeMethod" finished-at="2022-02-05T06:22:21Z" duration-ms="1237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:org.pageexecution.LoginPageExecution@20ca951f]" started-at="2022-02-05T06:22:21Z" name="test2" finished-at="2022-02-05T06:22:21Z" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.pageexecution.LoginPageExecution -->
+      <class name="org.pageexecution.HomePageExecution">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.HomePageExecution@2d778add]" started-at="2022-02-05T06:22:21Z" name="beforeMethod" finished-at="2022-02-05T06:22:22Z" duration-ms="1051" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test1()[pri:0, instance:org.pageexecution.HomePageExecution@2d778add]" started-at="2022-02-05T06:22:22Z" name="test1" finished-at="2022-02-05T06:22:22Z" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:org.pageexecution.HomePageExecution@2d778add]" started-at="2022-02-05T06:22:22Z" name="beforeMethod" finished-at="2022-02-05T06:22:24Z" duration-ms="1469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://en-gb.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test2()[pri:0, instance:org.pageexecution.HomePageExecution@2d778add]" started-at="2022-02-05T06:22:24Z" name="test2" finished-at="2022-02-05T06:22:24Z" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.pageexecution.HomePageExecution -->
+    </test> <!-- chromeTest2 -->
+  </suite> <!-- Suite -->
+</testng-results>

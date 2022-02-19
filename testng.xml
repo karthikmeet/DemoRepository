@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<!-- Cross Browser Execution -->
+<suite name="Suite" thread-count="2" parallel = "tests">
+	<test name="chromeTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="data" value="https://en-gb.facebook.com" />
+		<classes>
+			<class name="org.pageexecution.LoginPageExecution"></class>
+			<class name="org.pageexecution.HomePageExecution"></class>
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="IETest">
+		<parameter name="browser" value="IE" />
+		<parameter name="data" value="https://en-gb.facebook.com" />
+		<classes>
+			<class name="org.pageexecution.LoginPageExecution"></class>
+			<class name="org.pageexecution.HomePageExecution"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
