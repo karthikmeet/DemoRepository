@@ -36,4 +36,10 @@ public class HomePageExecution extends BaseClass {
 		System.out.println("excludeMethod");
 	}
 
+@Test
+public void gitmethod()
+{
+		System.out.println("add");
+}
+
 }
